@@ -24,7 +24,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-a {
+.welcome-button {
   display: block;
   font-size: 24px;
   text-decoration: none;
@@ -36,7 +36,7 @@ a {
   transition: all 0.25s;
 }
 
-a:hover {
+.welcome-button:hover {
   letter-spacing: 15px;
 }
 
@@ -50,4 +50,13 @@ footer {
 
 footer p {
   color: #ccc;
+}
+
+@media (max-width: 1085px) {
+  .wave {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    /* max-width: 500px; */
+  }
 }

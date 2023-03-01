@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Loading from "./Loading";
-import "../styles/Page2.css";
+import "../styles/Introduction.css";
 import Content from "./Content";
 
 const Introduction = () => {
@@ -19,9 +19,11 @@ const Introduction = () => {
       <>
         <video autoPlay muted loop id="myVideo">
           <source src={require("../assets/Tunnel.mp4")} type="video/mp4" />
+          {/* <Content /> */}
         </video>
         <div className="bg-overlay"></div>
-        <Content />
+        {/* <Navbar /> */}
+        <Content className="snap-start" />
       </>
     );
   }

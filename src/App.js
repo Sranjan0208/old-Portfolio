@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, Route, Routes } from "react-router-dom";
 import Welcome from "./components/Page1";
-import Introduction from "./components/Page2";
+import Introduction from "./components/Introduction";
 
 const App = () => {
   return (

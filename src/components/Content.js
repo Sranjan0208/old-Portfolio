@@ -1,8 +1,11 @@
 import React from "react";
+import { Routes, Route, Link } from "react-router-dom";
 import "../styles/Content.css";
 import About from "./About";
 import MouseScroll from "./MouseScroll";
-import Tech from "./Tech";
+
+import * as FaIcons from "react-icons/fa";
+import Skills from "./Skills";
 
 const Content = () => {
   return (
@@ -17,9 +20,13 @@ const Content = () => {
       </section>
       <MouseScroll />
 
+      {/* <Routes>
+        <Route path="/About" element={<About />} />
+      </Routes> */}
+
       <About />
 
-      <Tech />
+      <Skills />
     </>
   );
 };

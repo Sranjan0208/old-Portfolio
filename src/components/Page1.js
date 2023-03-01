@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
-import Introduction from "./Page2";
+import Introduction from "./Introduction";
 import "../styles/Page1.css";
 
 const Welcome = () => {
@@ -14,7 +14,11 @@ const Welcome = () => {
       />
 
       <div class="wrapper">
-        <Link to="/introduction" reloadDocument="true">
+        <Link
+          to="/introduction"
+          reloadDocument="true"
+          className="welcome-button"
+        >
           WELCOME
         </Link>
       </div>
