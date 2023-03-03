@@ -122,4 +122,8 @@
   .content-section .social {
     margin-top: 30px;
   }
+
+  .content {
+    margin: auto;
+  }
 }
